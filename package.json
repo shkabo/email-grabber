@@ -1,0 +1,23 @@
+{
+  "name": "email-grabber",
+  "version": "1.0.0",
+  "description": "Grabs emails from given url",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "parse",
+    "grab",
+    "email",
+    "emails"
+  ],
+  "author": "Bosko Stupar <bosko.stupar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
+}
